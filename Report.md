@@ -47,6 +47,9 @@ Unsupervised learning deals with problems in which data doesn't have labels. Tha
 
 # Reference
 [1] An unsupervised learning method for perceived stress level recognition based on office working behavior. Worawat Lawanont, Masahiro Inoue  Shibaura Institute of Technology, Japan
+
 [2] Unsupervised Deep Transfer Feature Learning for Medical Image Classification. Euijoon Ahn, Ashnil Kumar, Dagan Feng, Michael Fulham and Jinman Kim
+
 [3] The Hundred-Page Machine Learning Book. Andriy Burkov
+
 [4] Unsupervised Learning an Angle for Unlabelled Data World. Vinod Sharma,2018
