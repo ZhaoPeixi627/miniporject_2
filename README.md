@@ -18,8 +18,9 @@ Since there is no label for the unsupervised learning, it retains it self-retent
 1. The potential of hidden patterns can be very powerful for the business or even detect extremely amazing facts, fraud detection etc.
 2. K-Means: The algorithm is simple and easy to implement.
 3. It can detect what human eyes can not understand
-4.Output can determine the un explored territories and new ventures for businesses. Exploratory analytics can be applied to understand the financial, business and operational drivers behind what happened.
+4. Output can determine the un explored territories and new ventures for businesses. Exploratory analytics can be applied to understand the financial, business and operational drivers behind what happened.
 ## Cons
 1. Unsupervised learning is harder as compared to supervised learning.
 2. SUpervised learning is more efficient and accurate than unsupervised learning.
 3. Usefulness of the results; are of any value or not is difficult to confirm since no answer labels are available.
+
