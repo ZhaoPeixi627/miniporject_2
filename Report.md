@@ -5,13 +5,18 @@ Dataset in unsupervised learning is collection of unlabeled examples. The goal o
 
 # Summary of References
 ## An unsupervised learning method for perceived stress level recognition based on office working behavior
-* In this paper, the author wants to study the relationship between working behaviors and stress level of people. The author uses the  unsupervised learning on the data set and found the relation of each cluster to a stress level, which was measured by using Perceived Stress Scale (PSS).
+* In this paper, the author wants to study the relationship between working behaviors and stress level of people. The author uses the  unsupervised learning on the data set and found the relation of each cluster to a stress level, which was measured by using Perceived Stress Scale (PSS) 
 * For data collection, the author use and collect data from Arduino, Raspberry Pi, and multiple sensors. For example, for the working behavior attributes, the force sensor embedded in seat cushion recognizes how often the subject change their posture from sitting to standing. And for enviornment, different sensors like temperature sensor will be connected to Arduino and collect data.
 * For unsupervised learning, we could identify the similar working behavior which related to high or low stress more efficiently by using unsupervised learning and cluster analysis, the clustering algorithms we used in this process are k-means clustering and hierarchical clustering algorithm.
-
+number of instances in each cluster
+![](https://github.com/ZhaoPeixi627/miniporject_2/blob/master/Mini_Project_2/Number%20of%20instances%20in%20each%20cluster.png)
+character of two clusters
+![](https://github.com/ZhaoPeixi627/miniporject_2/blob/master/Mini_Project_2/character%20of%20two%20cluster.png)
 ## Unsupervised Deep Transfer Feature Learning for Medical Image Classification
 * There is a paucity of annotated data available due to the complexity of manual annotation, so to overcome this problem, we use unsupervised learning alogrithm.
 * ropose a new hierarchical unsupervised feature extractor by introducing a zero-bias CAE placed atop of a pre-trained CNN
+Zero-Bias Activation at Encoding-time
+![](https://github.com/ZhaoPeixi627/miniporject_2/blob/master/Mini_Project_2/Zero-Bias%20Activation%20at%20Encoding-time.png)
 
 
 # Analysis of results including pros and cons
