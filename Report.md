@@ -31,3 +31,22 @@ Since there is no label for the unsupervised learning, it retains it self-retent
 2. SUpervised learning is more efficient and accurate than unsupervised learning.
 3. Usefulness of the results; are of any value or not is difficult to confirm since no answer labels are available.
 
+# Recommendation
+In unsupervised learningh, common clustering algorithms include:
+1. Hierarchical clustering: In this technique the algorithm builds a multilevel hierarchy of clusters by creating a cluster tree
+2. k-Means clustering: Here data gets partitions into k distinct clusters based on distance to the centroid of a cluster
+3. Based on density clustering DBSCAN: Density-Based Spatial Clustering of Applications with Noise
+4. Gaussian mixture models: Algorithms builds a model in which model clusters a mixture of multivariate normal density components
+5. Based on density clustering Mean Shift: Shift mean is compared to k-means, both of which move the center point with the mean of the points within the collection, except that shift mean can determine the number of class clusters
+6. Self-organizing maps: This one gets super simplified by using neural networks that learn the topology and distribution of the data
+7. demensionality reduction: CPA: It has no parameter limits at all. There is no need for artificially set parameters or intervention in calculations based on any empirical model in the calculation of the PCA, and the final results are only relevant to the data.
+8. Hidden Markov models: Simply uses observed data to recover the sequence of states
+
+# Conclusion
+Unsupervised learning deals with problems in which data doesn't have labels. That property makes it vert problematic for many application. The absence of labels representing the desired behavior for your model means the absence of a solid reference point to judge the quality of your model. Sometimes people can't judge if the model or label resulted by unsupervised learning is corret or not. There is no error or reward signal to evaluate a potential solution. The number of cluster seekers can be chosen adaptively as a function of the distance between them and the sample variance of each cluster. The best use for unsupervised is around exploratory analytics to understand the financial, business and operational drivers behind what happened.
+
+# Reference
+[1] An unsupervised learning method for perceived stress level recognition based on office working behavior. Worawat Lawanont, Masahiro Inoue  Shibaura Institute of Technology, Japan
+[2] Unsupervised Deep Transfer Feature Learning for Medical Image Classification. Euijoon Ahn, Ashnil Kumar, Dagan Feng, Michael Fulham and Jinman Kim
+[3] The Hundred-Page Machine Learning Book. Andriy Burkov
+[4] Unsupervised Learning an Angle for Unlabelled Data World. Vinod Sharma,2018
