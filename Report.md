@@ -53,3 +53,18 @@ Unsupervised learning deals with problems in which data doesn't have labels. Tha
 [3] The Hundred-Page Machine Learning Book. Andriy Burkov
 
 [4] Unsupervised Learning an Angle for Unlabelled Data World. Vinod Sharma,2018
+
+# Group Members' Report
+## Meachine Learning Advancements -- Danny
+* Two traditional approaches to language translation. The first one is machine translation. The challenges of machine translation: 1. so many rules for different languages. 2. Natural ambiguity and flexibility of human language. The second approch is called statistical neural translation. This model works particularly well with short phrases but fails on larger texts which cannot be discounted in the translation possibilities. The latest and state of the art in language processing utilizes neural machine translation is called Google NMT. Neural machine translation uses neural networks to learn a statistical model for machine translation. The model can learn on input and output text directly, thus removing the requirements for rules of each of the languages. The cons of this are that languages with extremely high amount of data tend to get worse, more languages added to this universal model, the quicker the quality drops. 
+
+## Machine Learning:Detect and Segment Object -- Xushan
+* Tensorflow zoo is a good starter for user to apply different models of machine learning. In my report, I just analysis three models in the zoo: SVM model, mask R-CNN model and R-FCN model. SVM model is a very popular classification method in machine learning, which suitable to be used in the situation of kernel function known. However, it is hard to find the kernel function in the situation of high dimension space, and it need more storage space. Mask R-CNN model is an advanced version of Faster R-CNN model, it has high performance for generating object instance segmentation, however, the process is too slow. The last one is R- FCN, which is a detection model include a ROI pooling layer. It also reflect the spatial location information of the object. R- FCN seems to have the highest accuracy and fast operation speed among these models. In addition, there are a lot of other models in Tensorflow zoo and many datasets which are provided to users.
+
+## CNN -- Yunze
+* CNN is a very useful method to detect objects in images is a classical problem in computer vision, but CNN is usually used for detecting one image. R-CNN. R is for region. The region proposals are usually derived in through an algorithm called selective search. A selective search on an image generally provides around 2000 region proposals of interest. Selective search usually use traditional imagine processing technology to find the object.
+
+## Meachine Learning -- Chenhui
+* There are numerous approaches that can used in the segment detection. In this project, the DeeplabV3 is the best architecture in terms of segment detection, compared with the former version, the DeeplabV3 not only decreases the speed, but also increase the mIOU significantly. The experimental results show that the proposed model significantly improves over previous DeepLabV3 and achieves comparable performance with other state-of-art models on the PASCAL VOC 2012 semantic image segmentation benchmark. 
+
+
